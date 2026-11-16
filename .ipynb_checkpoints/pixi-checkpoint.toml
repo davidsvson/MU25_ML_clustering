@@ -1,0 +1,16 @@
+[workspace]
+authors = ["David Svensson <davidsvson@gmail.com>"]
+channels = ["conda-forge"]
+name = "MU25_ML_clustering"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+pandas = ">=3.1.1,<4"
+matplotlib = ">=3.11.2,<4"
+seaborn = ">=0.13.2,<0.14"
+python = ">=3.15.2,<3.16"
+jupyterlab = ">=4.6.6,<5"
+scikit-learn = ">=1.9.1,<2"
